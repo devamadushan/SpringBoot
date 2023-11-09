@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Nous avons bien reçu votre demande d'inscription.</p>
+<p>Rappel des informations envoyées :</p>
+
+<ul>
+    <li>
+      Nom : <span th:text="${nom}"></span>
+    </li>
+    <li>
+        Prenom : <span th:text="${prenom}"></span>
+    </li>
+    <li>
+        Date de Naissance : <span th:text="${dateNaissance}"></span>
+    </li>
+    <li>
+        age : <span th:text="${age}"></span>
+    </li>
+
+    <li>
+        statut : <span th:text="${statut}"></span>
+    </li>
+
+</ul>
+</body>
+</html>

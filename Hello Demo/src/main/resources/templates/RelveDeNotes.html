@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Relevé de Notes :</h1>
+<table>
+    <tr>
+        <th>Evaluation</th>
+        <th>Coef</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td>Devoir Maison</td>
+        <td th:text="${DMCO}"></td>
+        <td th:text="${DMNO}"></td>
+    </tr>
+    <tr>
+        <td>QCM</td>
+        <td th:text="${QCMCO}"></td>
+        <td th:text="${QCMNO}"></td>
+    </tr>
+    <tr>
+        <td>Expose</td>
+        <td th:text="${ExposeCO}"></td>
+        <td th:text="${ExposeNO}"></td>
+    </tr>
+    <tr>
+        <td >DS</td>
+        <td th:text="${DSCO}"></td>
+        <td th:text="${DSNO}"></td>
+    </tr>
+    <tr>
+        <td>Moyenne</td>
+        <td th:text="${Moyenne}"></td>
+    </tr>
+
+
+</table>
+</body>
+</html>

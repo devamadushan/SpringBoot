@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Rendu de Monnaie</h1>
+<p> detail du rendu de la monnaie pour <span th:text="${maonnaie}"></span> :</p>
+<ul>
+    <li>2.0€ :<span th:text="${rendu[2.0] !=null ? rendu[2.0] :'0'  }"></span> pièce(s)</li>
+    <li>1.0€ :<span th:text="${rendu[1.0] !=null ? rendu[1.0] :'0'}"></span> pièce(s)</li>
+    <li>0.50€ :<span th:text="${rendu[0.5] !=null ? rendu[0.5] :'0'}"></span> pièce(s)</li>
+    <li>0.20€ :<span th:text="${rendu[0.20] !=null ? rendu[0.20] :'0'}"></span> pièce(s)</li>
+    <li>0.10€ :<span th:text="${rendu[0.10] !=null ? rendu[0.10] :'0'}"></span> pièce(s)</li>
+    <li>0.05€ :<span th:text="${rendu[0.05]!=null ? rendu[0.05] :'0'}"></span> pièce(s)</li>
+    <li>0.02€ :<span th:text="${rendu[0.02]!=null ? rendu[0.02] :'0'}"></span> pièce(s)</li>
+    <li>0.01€ :<span th:text="${rendu[0.01]!=null ? rendu[0.01] :'0'}"></span> pièce(s)</li>
+</ul>
+</body>
+</html>
